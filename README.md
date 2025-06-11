@@ -1,5 +1,8 @@
 # Solana Hello World with Anchor
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 This is a basic Solana program using the Anchor framework. It logs 'Hello, Solana!' to the chain.
 
 ## Build
