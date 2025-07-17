@@ -5,6 +5,7 @@
 [![Built with Anchor](https://img.shields.io/badge/Built%20with-Anchor-orange)](https://www.anchor-lang.com/)
 [![Rust](https://img.shields.io/badge/Language-Rust-informational)](https://www.rust-lang.org/)
 [![Terminal Visionaries Only](https://img.shields.io/badge/Mode-Terminal%20Visionaries-black)](#)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange.svg)
 
 
 This is a basic Solana program using the Anchor framework. It logs 'Hello, Solana!' to the chain.
