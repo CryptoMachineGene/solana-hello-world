@@ -71,6 +71,22 @@ describe("solana-hello", () => {
   });
 });
 
+## Program Overview
+- **Instruction:** `hello()` — logs `"👋 Hello, Solana!"`
+- **Accounts:** none (CPI-free), stateless demo
+- **ID (devnet):** `GWTzAruVThiratXikUeYHo8F1ruZJQiVvfWczQRiwNX9`
+- **Explorer:** https://explorer.solana.com/address/GWTzAruVThiratXikUeYHo8F1ruZJQiVvfWczQRiwNX9?cluster=devnet
+
+## Build & Deploy (devnet)
+```bash
+anchor build
+anchor keys list
+# Anchor.toml has the devnet id set; deploy:
+solana program deploy \
+  --url https://api.devnet.solana.com \
+  --program-id target/deploy/solana_hello_world-keypair.json \
+  target/deploy/solana_hello_world.so
+```
 💬 Credits
 Decentralized and minimal. 🛠️
 Built by CryptoMachineGene. 🚀

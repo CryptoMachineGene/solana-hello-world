@@ -2,7 +2,7 @@
 name = "solana-hello-world"
 version = "0.1.0"
 description = "Created with Anchor"
-edition = "2021"  # Correct edition
+edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -17,4 +17,4 @@ no-log-ix-name = []
 idl-build = ["anchor-lang/idl-build"]
 
 [dependencies]
-anchor-lang = "0.31.1"  # Stable Anchor version, no changes needed here
+anchor-lang = "0.31.1"
